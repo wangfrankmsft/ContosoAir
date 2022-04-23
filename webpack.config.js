@@ -1,4 +1,4 @@
-var path = require('path');
+var path = require('path'); 
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
