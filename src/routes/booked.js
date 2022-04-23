@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); 
 
 const { secured } = require('./helpers');
 const navbarService = require('../services').NavbarService();

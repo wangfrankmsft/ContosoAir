@@ -3,7 +3,7 @@ const DealsService = require('./deals.service');
 const DestinationsJSON = require('../data/destinations');
 const DealsJSON = require('../data/deals');
 const AirportsService = require('./airports.service');
-jest.mock('./airports.service');
+jest.mock('./airports.service'); 
 
 describe('[Int] That Deals Service', () => {
     it.each([1,3])('returns always %s destinations', (n) => {

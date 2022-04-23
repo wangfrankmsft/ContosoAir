@@ -1,4 +1,4 @@
-const passport = require('passport');
+const passport = require('passport'); 
 
 const encodeData = function (data) {
     return Object.keys(data).map(function (key) {

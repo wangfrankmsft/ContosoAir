@@ -21,7 +21,7 @@ const flightParser = function(airports, prices) {
         distance: f.distance,
         stops: f.segments.length - 1,
         price: prices.getPrice(f.price, moment(f.segments[0].departTime))
-    });
+    }); 
 }
 
 class FlightsService {

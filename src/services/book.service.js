@@ -3,7 +3,7 @@ const uuidv4 = require('uuid/v4');
 const getRandomSeat = function(cols = 'ABCDEF', rows = 32) {
     var col = cols[Math.floor(Math.random() * cols.length)];
     var row = Math.floor(Math.random() * rows) + 1;
-    return row + '' + col;
+    return row + '' + col; 
 }
 
 const getNextSeat = function(seat, cols = 'ABCDEF') {

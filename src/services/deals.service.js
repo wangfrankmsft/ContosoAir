@@ -8,7 +8,7 @@ const dealsParser = function(airports) {
         toName: airports.getByCode(deal.toCode).city,
         price: parseInt(deal.price),
         since: moment(deal.since).format('MMM Do YYYY')
-    });
+    }); 
 }
 
 class DealsService {

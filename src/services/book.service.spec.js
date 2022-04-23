@@ -3,7 +3,7 @@ const BookService = require('./book.service');
 const BookRepository = require('../repositories/book.repository');
 const AirportsService = require('./airports.service');
 jest.mock('../repositories/book.repository');
-jest.mock('./airports.service');
+jest.mock('./airports.service'); 
 
 describe('[Unit] That Book Service', () => {
     beforeEach(() => {

@@ -14,7 +14,7 @@ describe('[Unit] That Deals Service', () => {
         expect(destinations).toContainEqual(expect.objectContaining({ title: 'Hawaii'}));
         expect(destinations).toContainEqual(expect.objectContaining({ title: 'Paris'}));
         expect(destinations).not.toContainEqual(expect.objectContaining({ title: 'Barcelona'}));
-    });
+    }); 
 
     it('returns correct deal', () => {
         AirportsService.mockImplementation(function() {

@@ -2,7 +2,7 @@ const moment = require('moment');
 const DateService = require('./date.service');
 
 const PriceService = require('./price.service');
-jest.mock('./price.service');
+jest.mock('./price.service'); 
 
 describe('[Unit] That Date Service', () => {
     beforeEach(() => {

@@ -20,7 +20,7 @@ const DateService = () => new _DateService(PriceService());
 const BookFormService = () => new _BookFormService(AirportsService());
 const BookService = () => new _BookService(BookRepository(), AirportsService());
 const DealsService = () => new _DealsService(DestinationsRepository(), DealsRepository(), AirportsService());
-const FlightsService = () => new _FlightsService(FlightsRepository(), AirportsService(), PriceService());
+const FlightsService = () => new _FlightsService(FlightsRepository(), AirportsService(), PriceService()); 
 
 module.exports = {
     PriceService,

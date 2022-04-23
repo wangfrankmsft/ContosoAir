@@ -25,7 +25,7 @@ describe('[Unit] That Navbar Service', () => {
             expect.objectContaining(
                 { text: expect.any(String), url: expect.any(String)}
             )
-        );
+        ); 
         expect(req.__).toHaveBeenCalled();
         const n = nav.publicMenu.length + nav.securedMenu.length + nav.onlyPublicMenu.length;
         expect(req.__).toHaveBeenCalledTimes(n + 1);

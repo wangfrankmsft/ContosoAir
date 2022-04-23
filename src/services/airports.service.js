@@ -1,5 +1,5 @@
 const avoidEmptyCity = function(a) {
-    return Object.assign({}, a, { city: a.city || '-'});
+    return Object.assign({}, a, { city: a.city || '-'}); 
 }
 
 class AirportsService {

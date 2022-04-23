@@ -20,7 +20,7 @@ describe('[Unit] That Flights Service', () => {
 
         const flights = flightsService.getFlights();
         expect(flights).toHaveLength(0);
-    });
+    }); 
     
     it('returns all flights', () => {
         AirportsService.mockImplementation(function(){

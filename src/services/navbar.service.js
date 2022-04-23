@@ -23,7 +23,7 @@ class NavbarService {
             publicMenu: publicMenu.map(mapMenus),
             securedMenu: securedMenu.map(mapMenus),
             onlyPublicMenu: onlyPublicMenu.map(mapMenus)
-        };
+        }; 
     }
 }
 

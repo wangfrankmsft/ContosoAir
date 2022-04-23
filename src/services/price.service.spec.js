@@ -29,4 +29,4 @@ describe('[Unit] That Price Service', () => {
         expect(mondayPrice).toBeGreaterThan(10);
         expect(thursdayPrice).toBeGreaterThan(10);
     });
-});
+}); 

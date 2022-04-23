@@ -1,4 +1,4 @@
-const airportsJSON = require('../data/airports');
+const airportsJSON = require('../data/airports'); 
 const destinationsJSON = require('../data/destinations');
 const dealsJSON = require('../data/deals');
 const flightsJSON = require('../data/flights');
