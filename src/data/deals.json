@@ -10,7 +10,7 @@
       "arrivalTime": "2018-03-05T14:55:00Z",
       "hours": "10h 30m",
       "stops": "1",
-      "since": "2018-03-04T08:45:00Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "1",
@@ -23,7 +23,7 @@
       "arrivalTime": "2018-03-05T12:20:00Z",
       "hours": "09h 15m",
       "stops": "1",
-      "since": "2018-03-04T08:45:00Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "2",
@@ -32,11 +32,11 @@
       "toName": "Tokyo",
       "toCode": "NAR",
       "price": "1070",
-      "departTime": "2018-03-04T08:45:00Z",
+      "departTime": "2022-05-30T00:00:01Z",
       "arrivalTime": "2018-03-05T14:25:00Z",
       "hours": "10h 0m",
       "stops": "1",
-      "since": "2018-03-04T08:45:00Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "3",
@@ -49,7 +49,7 @@
       "arrivalTime": "2018-03-05T14:25:00Z",
       "hours": "11h 20m",
       "stops": "1",
-      "since": "2018-03-04T08:45:00Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "4",
@@ -62,7 +62,7 @@
       "arrivalTime": null,
       "hours": null,
       "stops": null,
-      "since": "2018-02-13T00:00:01Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "5",
@@ -75,7 +75,7 @@
       "arrivalTime": null,
       "hours": null,
       "stops": null,
-      "since": "2017-02-13T00:00:01Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "6",
@@ -88,7 +88,7 @@
       "arrivalTime": null,
       "hours": null,
       "stops": null,
-      "since": "2017-02-13T00:00:01Z"
+      "since": "2022-05-30T00:00:01Z"
     },
     {
       "id": "7",
@@ -101,7 +101,7 @@
       "arrivalTime": null,
       "hours": null,
       "stops": null,
-      "since": "2017-02-13T00:00:01Z"
+      "since": "2022-05-30T00:00:01Z"
     }
   ]
   
