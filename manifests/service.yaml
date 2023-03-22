@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: contosoair
+  namespace: contosoair
+spec:
+  type: LoadBalancer
+  selector:
+    app: contosoair
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
