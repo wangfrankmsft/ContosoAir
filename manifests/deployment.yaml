@@ -4,7 +4,7 @@ metadata:
   name: fwTest1233
   labels:
     app: fwTest1233
-  namespace: namespace-workflow-1686852017709
+  namespace: namespace-workflow-1686859141057
 spec:
   replicas: 1
   selector:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: fwTest1233
-          image: acrworkflow1686769843637.azurecr.io/image-workflow-1686852017709:latest
+          image: fwtest22.azurecr.io/image-workflow-1686859141057:latest
           ports:
             - containerPort: 3000
