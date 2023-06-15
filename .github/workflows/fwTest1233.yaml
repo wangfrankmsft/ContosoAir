@@ -2,14 +2,14 @@ name: fwTest1233
 "on":
     push:
         branches:
-            - aks-devhub-qared
+            - aks-devhub-qspbr
     workflow_dispatch: {}
 env:
-    ACR_RESOURCE_GROUP: fwTest123
-    AZURE_CONTAINER_REGISTRY: acrworkflow1686769843637
-    CLUSTER_NAME: feTest123
-    CLUSTER_RESOURCE_GROUP: fwTest123
-    CONTAINER_NAME: image-workflow-1686852017709
+    ACR_RESOURCE_GROUP: acrworkflow1686853424898
+    AZURE_CONTAINER_REGISTRY: fwTest22
+    CLUSTER_NAME: fwTest456
+    CLUSTER_RESOURCE_GROUP: fwTest456
+    CONTAINER_NAME: image-workflow-1686859141057
     DEPLOYMENT_MANIFEST_PATH: |
         manifests/deployment.yaml
         manifests/service.yaml
@@ -62,4 +62,4 @@ jobs:
                 action: deploy
                 images: ${{ env.AZURE_CONTAINER_REGISTRY }}.azurecr.io/${{ env.CONTAINER_NAME }}:${{ github.sha }}
                 manifests: ${{ env.DEPLOYMENT_MANIFEST_PATH }}
-                namespace: namespace-workflow-1686852017709
+                namespace: namespace-workflow-1686859141057
