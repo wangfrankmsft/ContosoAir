@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: test
-  namespace: namespace-workflow-1680013879228
+  name: fwTest1233
+  namespace: namespace-workflow-1686852017709
 spec:
   type: LoadBalancer
   selector:
-    app: test
+    app: fwTest1233
   ports:
     - protocol: TCP
       port: 3000

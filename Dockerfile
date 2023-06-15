@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:19
 ENV PORT 3000
 EXPOSE 3000
 
